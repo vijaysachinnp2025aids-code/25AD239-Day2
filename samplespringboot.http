@@ -1,0 +1,23 @@
+### GET request to example server
+### READ ALL
+GET http://localhost:8080/api/users
+###
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "name": "Vijay",
+  "age": 18
+}
+### UPDATE (PUT)
+PUT http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Vijaysachinn",
+  "age": 25
+}
+
+### DELETE
+DELETE http://localhost:8080/api/users/1
